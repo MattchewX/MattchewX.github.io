@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "MattchewX",
   title: "Hi! I'm Matt.",
-  subTitle: emoji("A passionate Software Developer with experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."),
+  subTitle: emoji("A passionate Software Developer with experience building Web applications with JavaScript / Reactjs / Nodejs / Angular and some other cool libraries and frameworks."),
   resumeLink: "https://drive.google.com/file/d/1Zs96tn2TKKsJ3RY6ZS_T54doEF3AKdkv/view?usp=sharing"
 };
 
@@ -39,23 +39,31 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "Bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "React.js",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
@@ -63,11 +71,15 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "MySQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     }
   ]
@@ -79,16 +91,36 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      Stack: "React.js",  //Insert stack or technology you have experience in
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Angular.js",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Bootstrap",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Express.js",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "70%"
+      Stack: "MySQL",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "MongoDB",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Node.js/NPM",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Git",
+      progressPercentage: "80%"
     }
   ]
 };
@@ -156,29 +188,12 @@ const achievementSection = {
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Full Stack Software Development",
+      subtitle: "Completed the Full Stack Software Development course from Southern Careers Institute, powered by Woz U",
+      image: require("./assets/images/WozU.png"),
       footerLink: [
         { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "Final Project", url: "https://github.com/MattchewX/woz-u-team-blue" }
       ]
     }
   ]
@@ -232,7 +247,7 @@ const contactInfo = {
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
+  userName : "Mattchew_X"//Replace "twitter" with your twitter username without @
   
 };
 export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, contactInfo , twitterDetails};
