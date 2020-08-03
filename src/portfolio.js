@@ -8,7 +8,7 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "MattchewX",
-  title: "Hi all, I'm Matt",
+  title: "Hi! I'm Matt.",
   subTitle: emoji("A passionate Software Developer with experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."),
   resumeLink: "https://drive.google.com/file/d/1Zs96tn2TKKsJ3RY6ZS_T54doEF3AKdkv/view?usp=sharing"
 };
@@ -26,7 +26,7 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
+  title: "What I Do",
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO MAKE COMPLEX TASKS SIMPLE",
   skills: [
     emoji("⚡ Develop highly interactive Front End / User Interfaces for web and mobile applications"),
@@ -97,7 +97,7 @@ const techStack = {
 // Your top 3 work experiences
 
 const workExperiences = {
-  viewExperiences: true, //Set it to true to show workExperiences Section
+  viewExperiences: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",  
@@ -132,7 +132,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "MattchewX", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
@@ -143,14 +143,7 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
-    {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
-    }
+    {}
   ]
 };
 
@@ -228,21 +221,11 @@ const talkSection = {
   ]
 };
 
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
-};
-
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Interested in adding me to your team? Just text or email.",
+  number: "+1 920-659-0496",
+  email_address: "matt_vheuvel@outlook.com"
 };
 
 //Twitter Section
@@ -252,4 +235,4 @@ const twitterDetails = {
   userName : "twitter"//Replace "twitter" with your twitter username without @
   
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, contactInfo , twitterDetails};
