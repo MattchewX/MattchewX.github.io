@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c69427b885b728980209aa19fbf3d5e7",
+    "revision": "690de9d70bb88bc27c5e69ede6073523",
     "url": "/index.html"
   },
   {
-    "revision": "4c85a75400b70d8198e2",
+    "revision": "827c3e1ba20f3facaf13",
     "url": "/static/css/3.cffc9e54.chunk.css"
   },
   {
-    "revision": "6279984d7897e4f21c3d",
+    "revision": "8dbb144397dfae0ea73c",
     "url": "/static/css/4.54df59d4.chunk.css"
   },
   {
-    "revision": "e1ceffa18eacb60ea0cb",
-    "url": "/static/css/main.28c1f569.chunk.css"
+    "revision": "1a442daa6142dbc6273a",
+    "url": "/static/css/main.758eaf2a.chunk.css"
   },
   {
-    "revision": "1a91f9f740206f18d2c4",
-    "url": "/static/js/2.761b17fd.chunk.js"
+    "revision": "f92a3b2f179171976e97",
+    "url": "/static/js/2.c6a8489d.chunk.js"
   },
   {
-    "revision": "4c85a75400b70d8198e2",
-    "url": "/static/js/3.92c92013.chunk.js"
+    "revision": "827c3e1ba20f3facaf13",
+    "url": "/static/js/3.5f45a0ff.chunk.js"
   },
   {
-    "revision": "6279984d7897e4f21c3d",
-    "url": "/static/js/4.e7097c90.chunk.js"
+    "revision": "8dbb144397dfae0ea73c",
+    "url": "/static/js/4.5f31c502.chunk.js"
   },
   {
-    "revision": "e1ceffa18eacb60ea0cb",
-    "url": "/static/js/main.d6e1e284.chunk.js"
+    "revision": "1a442daa6142dbc6273a",
+    "url": "/static/js/main.3419ae0e.chunk.js"
   },
   {
-    "revision": "b16e88e54e8c323b062e",
-    "url": "/static/js/runtime-main.dcb43efa.js"
+    "revision": "3db1465b4087edc11024",
+    "url": "/static/js/runtime-main.6e70bd87.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -48,10 +48,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/airbnbLogo.c59720d6.png"
   },
   {
-    "revision": "47a7a717679b640ceb1b05d38c480a61",
-    "url": "/static/media/codeInLogo.47a7a717.webp"
-  },
-  {
     "revision": "68e841388612be0c5143e2932fb77d4f",
     "url": "/static/media/contactMail.68e84138.webp"
   },
@@ -62,10 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ddf76a14a2e3ad3ba62b46d49a75a74",
     "url": "/static/media/facebookLogo.8ddf76a1.png"
-  },
-  {
-    "revision": "e79c639294c805688be731921368c8f8",
-    "url": "/static/media/googleAssistantLogo.e79c6392.webp"
   },
   {
     "revision": "25bf045ca257e971124f3997d89f321c",
